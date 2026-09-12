@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Microphone PCM16 Blueprint Runtime",
+  "Description": "Captures the default microphone and exposes 16 kHz, signed PCM16 little-endian mono data to Blueprint.",
+  "Category": "Audio",
+  "CreatedBy": "Codex",
+  "CanContainContent": false,
+  "Plugins": [
+    {
+      "Name": "AudioCapture",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "AIStudentsHttp",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

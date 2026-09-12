@@ -1,0 +1,18 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Student Command Plugin",
+  "Description": "Receives student actions from the local Java WebSocket service.",
+  "Category": "Classroom",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "StudentCommandPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
